@@ -10,6 +10,9 @@ jobs:
     name: demo-job
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+    
     - name: Greeting
       run: echo "Hello Actions"
     
