@@ -13,3 +13,5 @@ jobs:
     - name: Greeting
       run: echo "Hello Actions"
     
+    - name: Inline
+      run: ls
